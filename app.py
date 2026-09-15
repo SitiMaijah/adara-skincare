@@ -517,9 +517,9 @@ def load_components():
 
 
     model = tf.keras.models.load_model(
-        model_path,
-        compile=False
-    )
+    "model_final.h5",
+    compile=False
+)
 
 
     # ------------------------------------------------------------

@@ -164,7 +164,7 @@ def menu_navigasi():
     if st.session_state.login:
 
         col1, col2, col3, col4, col5, col6 = st.columns(
-            [2.0, 2.0, 2.0, 1.5, 1.5, 1.0]
+            [2.0, 1.5, 1.5, 1.5, 1.5, 1.5]
         )
 
         with col1:
